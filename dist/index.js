@@ -1,10 +1,10 @@
 'use strict';
 
-var _kinveyNodeSdk = require('kinvey-node-sdk');
+var _kinveyHtml5Sdk = require('./kinvey-html5-sdk');
 
-var _kinveyNodeSdk2 = _interopRequireDefault(_kinveyNodeSdk);
+var _kinveyHtml5Sdk2 = _interopRequireDefault(_kinveyHtml5Sdk);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // Export
-module.exports = _kinveyNodeSdk2.default;
+module.exports = _kinveyHtml5Sdk2.default;
